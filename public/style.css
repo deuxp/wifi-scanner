@@ -1,0 +1,18 @@
+.button {
+  padding: 1rem;
+  border: none;
+  background-color: #ad3377;
+  color: #fff;
+  box-shadow: 0 5px 8px #000;
+  margin: 1rem;
+}
+
+.button:active {
+  background-color: red; 
+  box-shadow: 0 3px 3px #000;
+}
+
+.button:hover {
+  background-color: #ff9999;
+  transform: scale(1.1);
+}
