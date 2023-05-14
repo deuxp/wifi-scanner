@@ -19,15 +19,11 @@
   },
   "homepage": "https://github.com/deuxp/REST_API_boilerPlate#readme",
   "dependencies": {
-    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
+    "ejs": "^3.1.9",
     "express": "^4.17.3",
-    "helmet": "^5.0.2",
-    "morgan": "^1.10.0",
-    "pg": "^8.7.3",
-    "uuid": "^8.3.2",
-    "ws": "^8.5.0"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

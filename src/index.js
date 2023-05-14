@@ -11,10 +11,14 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors());
 
+app.use("/public", express.static("public"));
+
+app.set("view engine", "ejs");
+
 /* --------------------------------- ROUTES --------------------------------- */
 const home = require("./routes/home");
 /* --------------------------------- ROUTES --------------------------------- */
-app.use("/api/messages", home());
+app.use("/", home());
 
 app.listen(PORT, () => {
   console.log(`Server listening on port: ${PORT}`);
