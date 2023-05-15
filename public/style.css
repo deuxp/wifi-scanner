@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .scan--container {
   padding: 2rem;
   border: 1px red solid;
@@ -13,7 +17,7 @@
 }
 
 .button:active {
-  background-color: red; 
+  background-color: red;
   box-shadow: 0 3px 3px #000;
 }
 
